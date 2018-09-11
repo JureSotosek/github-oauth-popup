@@ -1,11 +1,11 @@
 {
   "name": "github-oauth-popup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "babel src/index.js -o dist/bundle.js",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
