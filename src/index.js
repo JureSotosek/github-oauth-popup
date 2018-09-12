@@ -27,9 +27,9 @@ const toQuery = (params, delimiter = '&') => {
 class PopupWindow {
   constructor(
     params,
+    options = { height: 1000, width: 600 },
     url = `https://github.com/login/oauth/authorize`,
-    id = 'github-oauth-authorize',
-    options = { height: 1000, width: 600 }
+    id = 'github-oauth-authorize'
   ) {
     this.id = id;
     this.url = url + '?' + toQuery(params);
@@ -103,9 +103,9 @@ class PopupWindow {
   }
 }
 
-export default (params, url, id, options) => {
+export const loginWithGithub = (params, options, url, id) => {
   return new Promise(async (resolve, reject) => {
-    const popup = PopupWindow.open(params, url, id, options);
+    const popup = PopupWindow.open(params, options, url, id);
 
     popup.then(resolve, reject);
   });
