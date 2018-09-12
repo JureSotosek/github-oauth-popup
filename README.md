@@ -8,6 +8,12 @@ A popup window helper/component for [GitHub login](https://developer.github.com/
 
 http://buildastack.io/ - Top right corner.
 
+## Install
+
+```
+$ yarn add github-oauth-popup
+```
+
 ## Usage
 
 ```js
