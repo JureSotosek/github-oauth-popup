@@ -68,3 +68,7 @@ loginWithGithub(params).then(res => console.log('Code: ', res.code))
 ```js
 'github-oauth-authorize';
 ```
+
+## License
+
+MIT © [Jure Sotosek](https://github.com/JureSotosek)
