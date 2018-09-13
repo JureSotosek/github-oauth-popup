@@ -1,18 +1,19 @@
 {
   "name": "github-oauth-popup",
-  "version": "1.1.1",
-  "description": "",
-  "main": "dist/bundle.js",
-  "scripts": {
-    "build": "babel src/index.js -o dist/bundle.js",
-    "prepare": "npm run build"
-  },
+  "version": "1.1.2",
+  "description": "A popup window helper/component for GitHub login",
+  "author": "Jure Sotosek",
   "repository": {
     "type": "git",
     "url": "https://github.com/juresotosek/github-oauth-popup.git"
   },
   "keywords": [],
   "license": "MIT",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "babel src/index.js -o dist/bundle.js",
+    "prepare": "npm run build"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
