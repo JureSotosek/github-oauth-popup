@@ -4,6 +4,8 @@
 
 A popup window helper/component for [GitHub login](https://developer.github.com/v3/oauth/).
 
+Inpired and coppied by/from [react-github-login](https://github.com/checkr/react-github-login)
+
 ## Example
 
 http://buildastack.io/ - Top right corner.
