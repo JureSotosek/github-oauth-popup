@@ -2,11 +2,17 @@
 
 ![NPM](https://img.shields.io/npm/v/github-oauth-popup.svg?style=flat)
 
-React component for [GitHub login](https://developer.github.com/v3/oauth/).
+A popup window helper/component for [GitHub login](https://developer.github.com/v3/oauth/).
 
 ## Example
 
 http://buildastack.io/ - Top right corner.
+
+## Install
+
+```
+$ yarn add github-oauth-popup
+```
 
 ## Usage
 
