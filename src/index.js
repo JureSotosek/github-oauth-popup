@@ -1,3 +1,5 @@
+import '@babel/polyfill';
+
 const toParams = query => {
   const q = query.replace(/^\??\//, '');
 
